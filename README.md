@@ -37,12 +37,6 @@
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Alexander-Thoms/Alexander-Thoms/languages-output/languages.svg" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Alexander-Thoms.Alexander-Thoms&"  />
 </div>
 
