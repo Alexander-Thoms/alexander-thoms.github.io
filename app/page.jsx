@@ -1,10 +1,17 @@
 import EnterGate from "./components/EnterGate";
+import { asset } from "../lib/asset";
 
 export default function Page() {
   return (
     <>
       {/* Animated blurred wallpaper background */}
-      <div className="background-image" aria-hidden="true"></div>
+      <div
+        className="background-image"
+        aria-hidden="true"
+        style={{
+          backgroundImage: `url("${asset("/assets/wallpaper.webp")}")`,
+        }}
+      ></div>
 
       {/* Entry gate + background music + music controls (interactive) */}
       <EnterGate />
@@ -32,7 +39,7 @@ export default function Page() {
                 <img
                   id="avatar"
                   className="avatar"
-                  src="/assets/avatar.webp"
+                  src={asset("/assets/avatar.webp")}
                   alt="avatar"
                 />
                 <h1 className="title">
