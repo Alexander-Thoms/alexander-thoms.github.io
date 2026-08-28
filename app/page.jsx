@@ -142,8 +142,11 @@ export default function Page() {
             </section>
 
             <section id="certifications" className="section page">
-              <div className="section-title-wrap">
-                <h2 className="shine-on-hover">certifications</h2>
+              <div className="page-header">
+                <h1 className="title">
+                  <span>c</span><span>e</span><span>r</span><span>t</span><span>i</span><span>f</span><span>i</span><span>c</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>s</span>
+                </h1>
+                <p className="subtitle">verified credentials</p>
               </div>
               <div className="cert-grid">
                 <a
