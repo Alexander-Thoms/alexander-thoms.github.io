@@ -350,33 +350,6 @@ body {
   filter: drop-shadow(0 0 8px rgba(106, 177, 235, 0.7));
 }
 
-/* ---------- Certifications ---------- */
-.cert-grid {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-}
-.cert-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--primary-green);
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
-}
-.cert-item i {
-  font-size: 2.5rem;
-}
-.cert-item:hover {
-  transform: scale(1.15);
-  color: var(--accent-green);
-  filter: drop-shadow(0 0 8px rgba(106, 177, 235, 0.6));
-}
-
 /* ---------- Contact grid ---------- */
 .contact-grid {
   display: grid;

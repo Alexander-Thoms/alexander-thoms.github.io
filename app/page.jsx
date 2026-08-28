@@ -141,53 +141,61 @@ export default function Page() {
               </div>
             </section>
 
-            <section id="certifications" className="section page">
+            <section id="certifications" className="page">
               <div className="page-header">
                 <h1 className="title">
                   <span>c</span><span>e</span><span>r</span><span>t</span><span>i</span><span>f</span><span>i</span><span>c</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>s</span>
                 </h1>
                 <p className="subtitle">verified credentials</p>
               </div>
-              <div className="cert-grid">
+              <div className="contact-grid">
                 <a
-                  className="cert-item"
+                  className="contact-card"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="FlyRank AI Front-End AI Engineering Internship"
                 >
-                  <i className="fa-solid fa-award"></i>
-                  <span>FlyRank Internship</span>
+                  <div className="icon-wrapper">
+                    <i className="fa-solid fa-award"></i>
+                  </div>
+                  <h3>FlyRank</h3>
+                  <p>AI Engineering Internship</p>
                 </a>
                 <a
-                  className="cert-item"
+                  className="contact-card"
                   href="https://www.coursera.org/account/accomplishments/specialization/D759JAVGHG25"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Google Cybersecurity Certificate"
                 >
-                  <i className="fa-brands fa-google"></i>
-                  <span>Google Cybersecurity</span>
+                  <div className="icon-wrapper">
+                    <i className="fa-brands fa-google"></i>
+                  </div>
+                  <h3>Google Cybersecurity</h3>
+                  <p>Certificate</p>
                 </a>
                 <a
-                  className="cert-item"
+                  className="contact-card"
                   href="https://verify.skilljar.com/c/7overzjwhxco"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Model Context Protocol Advanced Topics"
                 >
-                  <i className="fa-solid fa-code-branch"></i>
-                  <span>MCP Advanced Topics</span>
+                  <div className="icon-wrapper">
+                    <i className="fa-solid fa-code-branch"></i>
+                  </div>
+                  <h3>MCP Advanced Topics</h3>
+                  <p>Model Context Protocol</p>
                 </a>
                 <a
-                  className="cert-item"
+                  className="contact-card"
                   href="https://verify.skilljar.com/c/i7o6cxy8df75"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Claude Code in Action"
                 >
-                  <i className="fa-solid fa-robot"></i>
-                  <span>Claude Code in Action</span>
+                  <div className="icon-wrapper">
+                    <i className="fa-solid fa-robot"></i>
+                  </div>
+                  <h3>Claude Code in Action</h3>
+                  <p>Anthropic</p>
                 </a>
               </div>
             </section>
