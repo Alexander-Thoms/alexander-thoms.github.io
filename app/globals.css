@@ -308,7 +308,7 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, var(--accent-red), var(--accent-brown), var(--accent-amber), var(--accent-lime), var(--accent-green), var(--accent-purple), var(--accent-pink));
+  background: var(--accent-green);
   opacity: 0;
   transform: scaleX(0);
   transform-origin: bottom right;
