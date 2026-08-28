@@ -140,6 +140,7 @@ export default function EnterGate() {
       mutedRef.current = true;
       setMuted(true);
       if (playerRef.current) playerRef.current.mute();
+      updateMuteIcon();
     } else if (mutedRef.current) {
       mutedRef.current = false;
       setMuted(false);
