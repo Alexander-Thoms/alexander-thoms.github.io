@@ -39,6 +39,12 @@ export default function EnterGate() {
     slider.value = String(saved);
     lastVolumeRef.current = saved;
     pct.textContent = String(saved);
+
+    if (saved === 0) {
+      mutedRef.current = true;
+      setMuted(true);
+      updateMuteIcon();
+    }
   }, []);
 
   function persistVolume(v) {
