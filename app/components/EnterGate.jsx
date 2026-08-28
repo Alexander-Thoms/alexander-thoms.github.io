@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const VIDEO_ID = "QwVjTlTdIDQ";
+const VIDEO_ID = "72YoraTjNI0";
 const STORAGE_KEY = "bgmusic_volume";
 
 export default function EnterGate() {
