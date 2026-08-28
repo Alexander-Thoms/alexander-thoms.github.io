@@ -3,8 +3,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const REPO = "Alexander-Thoms";
-const basePath = process.env.NODE_ENV === "production" ? `/${REPO}` : "";
+const basePath = "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
