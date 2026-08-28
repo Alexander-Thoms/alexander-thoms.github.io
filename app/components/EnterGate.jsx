@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const VIDEO_ID = "cTMOQiY0axo";
+const VIDEO_ID = "MxEjnYdfLXU";
 const STORAGE_KEY = "bgmusic_volume";
 
 export default function EnterGate() {
@@ -92,6 +92,8 @@ export default function EnterGate() {
       try {
         playerRef.current = new window.YT.Player("yt-holder", {
           videoId: VIDEO_ID,
+          width: "100%",
+          height: "100%",
           playerVars: {
             autoplay: 1,
             loop: 1,

@@ -310,6 +310,7 @@ body {
 
 /* ---------- Visible music video ---------- */
 .music-video {
+  position: relative;
   width: 320px;
   height: 320px;
   margin: 0 auto;
@@ -319,8 +320,10 @@ body {
   box-shadow: 0 0 18px rgba(106, 177, 235, 0.45);
 }
 .music-video iframe {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
   border: 0;
   display: block;
 }
