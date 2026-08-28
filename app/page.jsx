@@ -171,7 +171,7 @@ export default function Page() {
                     <i className="fa-brands fa-google"></i>
                   </div>
                   <h3>Google Cybersecurity</h3>
-                  <p>Certificate</p>
+                  <p>Alphabet</p>
                 </a>
                 <a
                   className="contact-card"
