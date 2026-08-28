@@ -308,14 +308,10 @@ body {
   transform-origin: bottom left;
 }
 
-/* ---------- Visible music video (200x200) ---------- */
-.music-nowplaying {
-  width: 200px;
-  margin: 0 auto;
-}
+/* ---------- Visible music video ---------- */
 .music-video {
-  width: 200px;
-  height: 200px;
+  width: 320px;
+  height: 320px;
   margin: 0 auto;
   border: 2px solid var(--primary-green);
   border-radius: 8px;
