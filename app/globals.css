@@ -309,6 +309,10 @@ body {
 }
 
 /* ---------- Visible music video (200x200) ---------- */
+.music-nowplaying {
+  width: 200px;
+  margin: 0 auto;
+}
 .music-video {
   width: 200px;
   height: 200px;

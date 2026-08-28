@@ -139,10 +139,10 @@ export default function Page() {
             </section>
 
             <section className="section page">
-              <div className="section-title-wrap">
+              <div className="music-nowplaying">
                 <h2 className="shine-on-hover">now playing</h2>
+                <div id="music-video" className="music-video"></div>
               </div>
-              <div id="music-video" className="music-video"></div>
             </section>
           </div>
         </main>
