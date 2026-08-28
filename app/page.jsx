@@ -27,6 +27,9 @@ export default function Page() {
               <a className="nav-link" href="#contact">
                 contact
               </a>
+              <a className="nav-link" href="#certifications">
+                certifications
+              </a>
             </div>
           </div>
         </nav>
@@ -134,6 +137,54 @@ export default function Page() {
                   </div>
                   <h3>LinkedIn</h3>
                   <p>in/alexander-thoms</p>
+                </a>
+              </div>
+            </section>
+
+            <section id="certifications" className="section page">
+              <div className="section-title-wrap">
+                <h2 className="shine-on-hover">certifications</h2>
+              </div>
+              <div className="cert-grid">
+                <a
+                  className="cert-item"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="FlyRank AI Front-End AI Engineering Internship"
+                >
+                  <i className="fa-solid fa-award"></i>
+                  <span>FlyRank Internship</span>
+                </a>
+                <a
+                  className="cert-item"
+                  href="https://www.coursera.org/account/accomplishments/specialization/D759JAVGHG25"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Google Cybersecurity Certificate"
+                >
+                  <i className="fa-brands fa-google"></i>
+                  <span>Google Cybersecurity</span>
+                </a>
+                <a
+                  className="cert-item"
+                  href="https://verify.skilljar.com/c/7overzjwhxco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Model Context Protocol Advanced Topics"
+                >
+                  <i className="fa-solid fa-code-branch"></i>
+                  <span>MCP Advanced Topics</span>
+                </a>
+                <a
+                  className="cert-item"
+                  href="https://verify.skilljar.com/c/i7o6cxy8df75"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Claude Code in Action"
+                >
+                  <i className="fa-solid fa-robot"></i>
+                  <span>Claude Code in Action</span>
                 </a>
               </div>
             </section>
