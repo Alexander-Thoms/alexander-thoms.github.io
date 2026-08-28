@@ -249,6 +249,9 @@ body {
 }
 
 /* ---------- Section spacing ---------- */
+#contact {
+  margin-bottom: 3rem;
+}
 #certifications {
   margin-bottom: 3rem;
 }
