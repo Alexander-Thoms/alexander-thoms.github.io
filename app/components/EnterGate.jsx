@@ -7,7 +7,6 @@ const STORAGE_KEY = "bgmusic_volume";
 
 export default function EnterGate() {
   const overlayRef = useRef(null);
-  const musicContainerRef = useRef(null);
   const musicControlRef = useRef(null);
   const muteBtnRef = useRef(null);
   const volumeSliderRef = useRef(null);
@@ -85,8 +84,9 @@ export default function EnterGate() {
     ensureApi(function () {
       const holder = document.createElement("div");
       holder.id = "yt-holder";
-      if (musicContainerRef.current) {
-        musicContainerRef.current.appendChild(holder);
+      const container = document.getElementById("music-video");
+      if (container) {
+        container.appendChild(holder);
       }
 
       try {
@@ -96,10 +96,10 @@ export default function EnterGate() {
             autoplay: 1,
             loop: 1,
             playlist: VIDEO_ID,
-            controls: 0,
+            controls: 1,
             modestbranding: 1,
             playsinline: 1,
-            fs: 0,
+            fs: 1,
             iv_load_policy: 3,
           },
           events: {
@@ -188,8 +188,7 @@ export default function EnterGate() {
         </div>
       </div>
 
-      {/* Background music: YouTube iframe injected here on enter (audio only, hidden) */}
-      <div id="bg-music" ref={musicContainerRef} aria-hidden="true"></div>
+      {/* Music video mounts into #music-video (defined in page.jsx) when entering */}
 
       {/* Music control (mute + volume), shown after entering */}
       <div
