@@ -247,6 +247,11 @@ body {
 .section:hover {
   transform: translateY(-5px);
 }
+
+/* ---------- Section spacing ---------- */
+#certifications {
+  margin-bottom: 3rem;
+}
 .section-title-wrap {
   display: flex;
   align-items: center;
