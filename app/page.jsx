@@ -183,7 +183,7 @@ export default function Page() {
                     <i className="fa-solid fa-code-branch"></i>
                   </div>
                   <h3>MCP Advanced Topics</h3>
-                  <p>Model Context Protocol</p>
+                  <p>Anthropic</p>
                 </a>
                 <a
                   className="contact-card"
