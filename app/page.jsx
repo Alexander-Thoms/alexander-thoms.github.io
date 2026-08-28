@@ -158,8 +158,8 @@ export default function Page() {
                   <div className="icon-wrapper">
                     <i className="fa-solid fa-award"></i>
                   </div>
-                  <h3>FlyRank</h3>
-                  <p>AI Engineering Internship</p>
+                  <h3>Front-end AI Engineering Internship</h3>
+                  <p>Flyrank</p>
                 </a>
                 <a
                   className="contact-card"
