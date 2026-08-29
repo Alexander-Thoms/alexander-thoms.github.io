@@ -105,6 +105,9 @@ export default function Page() {
                   className="contact-card"
                   href="https://github.com/Alexander-Thoms"
                 >
+                  <div className="icon-wrapper">
+                    <i className="fa-brands fa-github"></i>
+                  </div>
                   <h3>GitHub</h3>
                   <p>@Alexander-Thoms</p>
                 </a>
@@ -112,6 +115,9 @@ export default function Page() {
                   className="contact-card"
                   href="https://www.linkedin.com/in/alexander-thoms-bb3469244/"
                 >
+                  <div className="icon-wrapper">
+                    <i className="fa-brands fa-linkedin"></i>
+                  </div>
                   <h3>LinkedIn</h3>
                   <p>in/alexander-thoms</p>
                 </a>
