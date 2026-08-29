@@ -82,17 +82,7 @@ export default function Page() {
                 </p>
               </div>
 
-              <div className="button-container">
-                <a href="https://github.com/Alexander-Thoms" title="GitHub">
-                  GitHub
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/alexander-thoms-bb3469244/"
-                  title="LinkedIn"
-                >
-                  LinkedIn
-                </a>
-              </div>
+
             </section>
 
             {/* CONTACT */}
