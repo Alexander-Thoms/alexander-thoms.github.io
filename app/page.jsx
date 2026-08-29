@@ -151,18 +151,6 @@ export default function Page() {
               <div className="contact-grid">
                 <a
                   className="contact-card"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="icon-wrapper">
-                    <i className="fa-solid fa-award"></i>
-                  </div>
-                  <h3>Front-end AI Engineering Internship</h3>
-                  <p>Flyrank</p>
-                </a>
-                <a
-                  className="contact-card"
                   href="https://www.coursera.org/account/accomplishments/specialization/D759JAVGHG25"
                   target="_blank"
                   rel="noopener noreferrer"
