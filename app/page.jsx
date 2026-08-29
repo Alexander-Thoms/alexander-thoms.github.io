@@ -68,10 +68,6 @@ export default function Page() {
               <div className="section about">
                 <div className="section-title-wrap">
                   <h2 className="shine-on-hover">about</h2>
-                  <i
-                    className="section-icon icon-green i-ph-info-fill"
-                    aria-hidden="true"
-                  ></i>
                 </div>
                 <p className="about-text">
                   I&rsquo;m an aspiring Networking Technician with a background in
@@ -122,9 +118,6 @@ export default function Page() {
                   className="contact-card"
                   href="https://github.com/Alexander-Thoms"
                 >
-                  <div className="icon-wrapper">
-                    <i className="fa-brands fa-github"></i>
-                  </div>
                   <h3>GitHub</h3>
                   <p>@Alexander-Thoms</p>
                 </a>
@@ -132,9 +125,6 @@ export default function Page() {
                   className="contact-card"
                   href="https://www.linkedin.com/in/alexander-thoms-bb3469244/"
                 >
-                  <div className="icon-wrapper">
-                    <i className="fa-brands fa-linkedin"></i>
-                  </div>
                   <h3>LinkedIn</h3>
                   <p>in/alexander-thoms</p>
                 </a>
