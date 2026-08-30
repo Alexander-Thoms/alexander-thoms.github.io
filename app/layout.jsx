@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
+        <link rel="icon" href="/assets/icon.ico" type="image/x-icon" />
       </head>
       <body>{children}</body>
     </html>
