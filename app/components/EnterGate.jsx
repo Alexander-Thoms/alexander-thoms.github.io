@@ -16,7 +16,7 @@ export default function EnterGate() {
   const mutedRef = useRef(false);
   const ytRequestedRef = useRef(false);
 
-  const [entered, setEntered] = useState(false);
+  const [, setEntered] = useState(false);
   const [showControls, setShowControls] = useState(false);
   const [muted, setMuted] = useState(false);
 
@@ -30,7 +30,7 @@ export default function EnterGate() {
     try {
       const raw = parseInt(localStorage.getItem(STORAGE_KEY), 10);
       if (!isNaN(raw) && raw >= 0 && raw <= 100) saved = raw;
-    } catch (e) {
+    } catch {
       /* localStorage unavailable (private mode) — ignore */
     }
 
@@ -48,7 +48,7 @@ export default function EnterGate() {
   function persistVolume(v) {
     try {
       localStorage.setItem(STORAGE_KEY, String(v));
-    } catch (e) {
+    } catch {
       /* ignore */
     }
   }
