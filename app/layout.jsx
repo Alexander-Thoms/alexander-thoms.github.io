@@ -1,22 +1,4 @@
 import "./globals.css";
-import { asset } from "../lib/asset";
-
-const fontFace = `
-@font-face {
-  font-family: "Monaspace Neon";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url("${asset("/assets/monaspace-neon-400.woff2")}") format("woff2");
-}
-@font-face {
-  font-family: "Monaspace Neon";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url("${asset("/assets/monaspace-neon-700.woff2")}") format("woff2");
-}
-`;
 
 export const metadata = {
   title: "My Personal Website",
@@ -35,8 +17,6 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
-        <link rel="icon" href={asset("/assets/icon.png")} type="image/png" />
-        <style dangerouslySetInnerHTML={{ __html: fontFace }} />
       </head>
       <body>{children}</body>
     </html>

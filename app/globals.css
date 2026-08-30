@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("/assets/monaspace-neon-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("/assets/monaspace-neon-700.woff2") format("woff2");
+}
+
 :root {
   --primary-green: #6ae0a0;
   --secondary-green: #70f1b0;

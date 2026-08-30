@@ -8,7 +8,6 @@ const STORAGE_KEY = "bgmusic_volume";
 export default function EnterGate() {
   const overlayRef = useRef(null);
   const musicControlRef = useRef(null);
-  const muteBtnRef = useRef(null);
   const volumeSliderRef = useRef(null);
   const volumePctRef = useRef(null);
 
@@ -42,7 +41,7 @@ export default function EnterGate() {
     if (saved === 0) {
       mutedRef.current = true;
       setMuted(true);
-      updateMuteIcon();
+      
     }
   }, []);
 
@@ -52,13 +51,6 @@ export default function EnterGate() {
     } catch (e) {
       /* ignore */
     }
-  }
-
-  function updateMuteIcon() {
-    if (!muteBtnRef.current) return;
-    muteBtnRef.current.innerHTML = mutedRef.current
-      ? '<i class="fa-solid fa-volume-xmark"></i>'
-      : '<i class="fa-solid fa-volume-high"></i>';
   }
 
   function ensureApi(callback) {
@@ -148,12 +140,12 @@ export default function EnterGate() {
       mutedRef.current = true;
       setMuted(true);
       if (playerRef.current) playerRef.current.mute();
-      updateMuteIcon();
+      
     } else if (mutedRef.current) {
       mutedRef.current = false;
       setMuted(false);
       if (playerRef.current) playerRef.current.unMute();
-      updateMuteIcon();
+      
     }
     if (playerRef.current) playerRef.current.setVolume(v);
     persistVolume(v);
@@ -174,7 +166,7 @@ export default function EnterGate() {
         persistVolume(50);
       }
     }
-    updateMuteIcon();
+    
   }
 
   return (
@@ -205,10 +197,9 @@ export default function EnterGate() {
             className="control-button"
             type="button"
             aria-label="mute"
-            ref={muteBtnRef}
             onClick={onMuteClick}
           >
-            <i className="fa-solid fa-volume-high"></i>
+            <i className={muted ? "fa-solid fa-volume-xmark" : "fa-solid fa-volume-high"}></i>
           </button>
           <div className="volume-slider-background">
             <input
